@@ -223,6 +223,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7673487250857332701, guid: c98043d57e0190845b790d7b92990bee, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 92d82946531669a469a2da0f0a9bfae4, type: 2}
     - target: {fileID: 7673487251499248760, guid: c98043d57e0190845b790d7b92990bee, type: 3}
       propertyPath: m_Name
       value: HPCharacter
@@ -308,7 +312,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20313a1ff7b51743b44c30cbfb0b1fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
+  controller: {fileID: 729884483}
+  MyAnimator: {fileID: 729884485}
+--- !u!95 &729884485 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7673487250857332701, guid: c98043d57e0190845b790d7b92990bee, type: 3}
+  m_PrefabInstance: {fileID: 729884481}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &821133075
 PrefabInstance:
   m_ObjectHideFlags: 0
